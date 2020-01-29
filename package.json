@@ -1,0 +1,37 @@
+{
+  "name": "lustils",
+  "version": "1.0.0",
+  "esversion": 6,
+  "description": "Yet another utility collection",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appgurueu/lustils.git"
+  },
+  "keywords": [
+    "lit",
+    "lite",
+    "light",
+    "lightweight",
+    "utils",
+    "helpers",
+    "utilities",
+    "misc",
+    "miscellaneous"
+  ],
+  "author": {
+    "name": "Lars Mueller",
+    "email": "appgurulars@gmx.de",
+    "url": "https://appgurueu.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appgurueu/lustils/issues"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/appgurueu/lustils"
+}
