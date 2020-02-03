@@ -51,6 +51,8 @@ Allows dealing with objects (cloning them).
 
 * `1.0.0`
   * Initial version
+* `1.0.1`
+  * Added `object.complete`
 
 #### Example
 
