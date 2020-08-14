@@ -1,3 +1,4 @@
+"use strict";
 function deepClone(obj) {
     let clone = {};
     for (let key in obj) {
