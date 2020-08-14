@@ -28,7 +28,7 @@ npm install lustils
 ### Import
 
 ```javascript
-const lustils=require("lustils");
+const lustils = require("lustils");
 ```
 
 ### `error`
@@ -53,6 +53,8 @@ Allows dealing with objects (cloning them).
   * Initial version
 * `1.0.1`
   * Added `object.complete`
+* `1.0.2`
+  * Fixed `object.complete`
 
 #### Example
 

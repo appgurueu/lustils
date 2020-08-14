@@ -9,12 +9,12 @@ function deepClone(obj) {
 
 function complete(incomplete, completions) {
     let completed = {};
+    for (let key in incomplete) {
+        completed[key] = incomplete[key];
+    }
     for (let key in completions) {
-        if (Object.prototype.hasOwnProperty.call(incomplete, key)) {
-            completed[key] = incomplete[key];
-        } else {
+        if (!Object.prototype.hasOwnProperty.call(incomplete, key))
             completed[key] = completions[key];
-        }
     }
     return completed;
 }
