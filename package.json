@@ -1,6 +1,6 @@
 {
   "name": "lustils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "esversion": 6,
   "description": "Yet another utility collection",
   "main": "./index.js",
