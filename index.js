@@ -1,9 +1,10 @@
 "use strict";
 
 let exps = {};
-for (let submodule of ["error", "stream", "parse", "object"]) {
-    exps[submodule] = require("./"+submodule+".js");
-}
+exps["error"] = require("./error.js");
+exps["stream"] = require("./stream.js");
+exps["parse"] = require("./parse.js");
+exps["object"] = require("./object.js");
 Object.freeze(exps);
 
 module.exports = exps;
